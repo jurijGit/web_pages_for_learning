@@ -1,0 +1,71 @@
+
+#main {
+    background-color: #eee;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+  font-family: sans-serif;
+  }
+#title{
+  font-size:45px;
+  margin: auto;
+}
+.naslovokolje{
+    text-align: center;
+    padding: 30px;
+  
+}
+.vnaslovu{
+  margin-top:30px;
+  margin-bottom: 0px;
+}
+#img-div{
+  background: white;
+  text-align: center;
+  width: 98%;
+  margin: auto;
+}
+#image{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#img-caption {
+ padding: 15px;
+  margin: auto;
+}
+.predtabelo{
+  margin: auto;
+  padding:40px;
+}
+
+#tribute-info {
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
+
+ul{
+  line-height: 1.4;
+}
+
+li {
+  margin: 20px ;
+}
+.zadnja{
+  font-style: italic;
+  max-width:528px;
+  margin: auto;
+}
+.linkzadi{
+  padding:20px;
+  margin-top: 10px;
+}
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}

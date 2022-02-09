@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+body {
+  height: 100vh;
+  background-color: #008000;
+  color: #008000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#quote-box {
+  background: #FFFFFF;
+  width: 450px;
+  margin: auto;
+  padding: 30px;
+  border: none;
+  border-radius: 5px;
+}
+#text-div {
+  background: #FFFFFF;
+  width: 450px;
+  font-size: 25px;
+}
+
+#author-div {
+  background: #FFFFFF;
+  width: 450px;
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#bottom-box {
+  width: 450px;
+  height: 35px;
+  display: flex;
+}
+
+#twitter-div {
+  width: 225px;
+  height: 35px;
+  float: left;
+  text-align: left;
+}
+
+#button-div {
+  width: 225px;
+  height: 35px;
+  float: right;
+  text-align: right;
+}
+
+#tweet-quote{
+  font-size: 35px;
+}
+
+#new-quote {
+  color: #FFFFFF;
+  background-color: #008000;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.7;
+}
+a:hover {
+  opacity: 0.7;  
+}
+a {
+  cursor: pointer;  
+}

@@ -1,0 +1,166 @@
+body {
+  background: rgb(230,230,230);
+  font-size: 1.1rem;
+  font-family: Arial;
+  
+}
+#wrapper {
+    width: 100%;
+}
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background: rgb(230,230,230);
+  height: 4.5rem; 
+}
+#logo {
+  float: left;
+  height: 4.5rem;
+}
+#header-img {
+  width: 20rem;
+  height: auto;
+  padding: 1rem;
+}
+#nav-bar {
+   width: 50%;
+   float: right;
+}
+.nav-link1 {
+  width: 20%;
+  height: auto;  
+  float: right;
+  text-align: center;
+  padding: 1.7rem;
+  
+}
+a {
+  color: black;
+  text-decoration: none; 
+}
+#main {
+  margin-top: 4.5rem;
+}
+#mail-form {
+  text-align: center;
+}
+#email {
+  width: 19rem;
+  height: 1.5rem;
+  border: 0.12rem solid;
+  border-radius: 0.2rem;
+  margin-bottom: 0.8rem;
+}
+#submit {
+  background: rgb(255,175,36);
+  border: 0rem;
+  border-radius: 0.25rem;
+  width: 8.5rem;
+  height: 1.6rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.container {
+  margin: auto;
+  padding-top: 3rem;
+  width: 70rem;
+  height: 20rem;
+
+}
+.itemsL {
+  float: left;
+  width: 10rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.5rem;
+}
+.itemsR {
+  float: right;
+}
+
+.containerlogo {
+  margin: auto;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: orange;
+}
+.containertxt {
+  height: 5rem; 
+}
+
+#containerp {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+#containerh3 {
+  margin-bottom: -1rem;
+}
+
+#how-it-works {
+  text-align: center;
+  padding: 2rem;
+}
+#submitoffer {
+  background: rgb(255,175,36);
+  border: 0rem;
+  border-radius: 0.25rem;
+  width: 5.5rem;
+  height: 2.6rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+p {
+ font-size: 0.85rem; 
+}
+
+.offerbutton{
+  padding-bottom: 1rem;
+}
+
+.pricing {
+  margin: auto;
+  padding: 1rem;
+  width: 70rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1rem;
+}
+
+.offer {
+  justify-self: center;
+  width: 22rem;
+  border-style: solid;
+  border-width: thin;
+  text-align: center;
+}
+
+.offername {
+  background: rgb(192, 192, 192);
+  height: 3rem;
+  margin: auto;
+  padding-top: 1.1rem;
+
+  
+}
+#offerh3 {
+    margin-top: 0em;
+}
+
+#footer1 {
+  background: rgb(192, 192, 192);
+  width: 70rem;
+  height: 3rem;
+  margin: auto;
+  text-align: right;
+  padding: 1rem;
+}
+
+
+@media(min-width: 340px){
+
+}
